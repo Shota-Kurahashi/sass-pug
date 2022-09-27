@@ -72,8 +72,8 @@ module.exports = {
       filename: "./css/[name]-[chunkhash].css",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/index.pug",
-      filename: "index.html",
+      template: "./src/pug/index.pug",
+      filename: "public/index.html",
     }),
     new CleanWebpackPlugin(),
   ],
